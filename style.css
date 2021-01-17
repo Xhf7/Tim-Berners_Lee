@@ -66,5 +66,11 @@ font-family: 'Bad Script', cursive;
     font-size: 25px;
 }
 .item:hover{
-    background-color:blueviolet;
+    background-color:darkgreen;
+}
+a{
+  text-decoration: none;  
+}
+.item a{
+    color: lightgreen;
 }
