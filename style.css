@@ -1,85 +1,54 @@
-body {
+body
+{
     text-align: center;
-    margin: 0px;
-    padding-top: 1000px;
 }
-
 #welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
     width: 100%;
     height: 100%;
-    background: linear-gradient(aqua, lightgreen);
-    color: aliceblue;
-    display: table;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
     z-index: 9;
-    height: 1000px;
-
 }
-
-#img {
-    border-radius: 50%;
-    width: 500px;
-}
-
-#specfic {
-    display: table-cell;
-    position: relative;
-    vertical-align: middle;
-}
-
-p {
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
-    max-width: 500px;
-    text-align: center;
-}
-
 #bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
     text-align: center;
-    padding: 100px;
-    
 }
-.menu{
-    margin-top: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: aqua;
-    z-index: 9999;
-    list-style: none;
-    top:0;
-    position: fixed;
-    cursor: pointer;
-    color: white;
-    font-family: 'Pacifico', cursive;
-    font-size: 25px;
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe
+{
     width: 100%;
 }
-.item{
- display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+.contact_1 h3
+{
+    display: inline;
 }
-#font{
-font-family: 'Bad Script', cursive;
-    font-size: 25px;
+.contact_1 a
+{
+    text-shadow: none;
 }
-.item:hover{
-    background-color:darkgreen;
+
+
+#videos iframe
+{
+    width: 80%;
 }
-a{
-  text-decoration: none;  
-}
-.item a{
-    color: lightgreen;
-}
-.info{
-    background-color: aqua;
-    font-size:22;
-    color:white;
+
+
+input
+{
+    background: grey;
 }
